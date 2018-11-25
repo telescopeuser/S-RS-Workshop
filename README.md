@@ -1,6 +1,6 @@
-﻿[![](http://www.aisp.sg/images/APP/ISS.jpg)](https://www.iss.nus.edu.sg "Institute of Systems Science")
+﻿<img align="right" src='http://www.aisp.sg/images/APP/ISS.jpg' width=25%>
 
-# Reasoning Systems Workshops & References
+## Reasoning Systems Workshops & References
 
 **This [Reasoning Systems (RS)](https://www.iss.nus.edu.sg/executive-education/course/detail/reasoning-systems "Reasoning Systems") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
 

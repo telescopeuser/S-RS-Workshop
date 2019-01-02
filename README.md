@@ -310,7 +310,7 @@ One delayed day = 10 marks deduction
 2. [MTech] Download Github repository as a ZIP file, then upload to NUS LumiNUS / IVLE
 
 Reference https://github.com/IRS-PM/Workshop-Project-Submission-Template
- 
+
 
 ### ANNEX 4 KIE OptaPlanner Examples
 

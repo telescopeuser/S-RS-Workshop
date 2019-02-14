@@ -1,0 +1,3 @@
+https://github.com/kiegroup/optaplanner
+
+https://github.com/kiegroup/optaplanner/tree/master/optaplanner-webexamples

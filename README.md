@@ -11,7 +11,7 @@
 **zhan.gu@nus.edu.sg**
 
 ---
-### Open and refer to file: [S-RS Workshop Guide.pdf](https://github.com/IRS-RS/S-RS-Workshop/blob/master/S-RS%20Workshop%20Guide.pdf)
+### Open and refer to workshop guide in respective folders: S-RS Workshop Guide Day?.pdf
 ---
 
 Institute of Systems Science

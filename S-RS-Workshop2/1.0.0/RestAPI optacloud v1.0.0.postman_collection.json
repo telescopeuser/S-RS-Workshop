@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "024d1061-6ce4-40bc-981f-ce8a2c28623a",
-		"name": "RestAPI optacloud",
+		"_postman_id": "6c36e07c-a6d7-49eb-ba1a-d8c0799c6498",
+		"name": "RestAPI optacloud v1.0.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [

@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "7be92e15-7e43-4251-948b-d21e3f677950",
+		"_postman_id": "024d1061-6ce4-40bc-981f-ce8a2c28623a",
 		"name": "RestAPI optacloud",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8080/kie-server/services/rest/server/containers/employeerostering_1.0.0-SNAPSHOT/solvers/EmployeeRosteringSolver",
+			"name": "solvers/cloudBalancingSolver",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/kie-server/services/rest/server/containers/employeerostering_1.0.0-SNAPSHOT/solvers/EmployeeRosteringSolver/state/solving",
+			"name": "solvers/cloudBalancingSolver/state/solving",
 			"request": {
 				"auth": {
 					"type": "basic",
@@ -124,7 +124,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/kie-server/services/rest/server/containers/employeerostering_1.0.0-SNAPSHOT/solvers/EmployeeRosteringSolver/bestsolution",
+			"name": "solvers/cloudBalancingSolver/bestsolution",
 			"request": {
 				"auth": {
 					"type": "basic",

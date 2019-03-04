@@ -42,7 +42,7 @@
 					"raw": "<solver-instance>\n  <solver-config-file>optacloud/optacloud/cloudSolverConfig.solver.xml</solver-config-file>\n</solver-instance>"
 				},
 				"url": {
-					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_1.0.0-SNAPSHOT/solvers/cloudBalancingSolver",
+					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_2.0.0-SNAPSHOT/solvers/cloudBalancingSolver",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -54,7 +54,7 @@
 						"rest",
 						"server",
 						"containers",
-						"optacloud_1.0.0-SNAPSHOT",
+						"optacloud_2.0.0-SNAPSHOT",
 						"solvers",
 						"cloudBalancingSolver"
 					]
@@ -97,10 +97,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<planning-problem class=\"optacloud.optacloud.CloudSolution\" id=\"1\">\n  <id>0</id>\n  <computerList id=\"2\">\n    <optacloud.optacloud.Computer id=\"3\">\n      <id>0</id>\n      <cpuPower>24</cpuPower>\n      <memory>96</memory>\n      <networkBandwidth>16</networkBandwidth>\n      <cost>4800</cost>\n    </optacloud.optacloud.Computer>\n    <optacloud.optacloud.Computer id=\"4\">\n      <id>1</id>\n      <cpuPower>6</cpuPower>\n      <memory>4</memory>\n      <networkBandwidth>6</networkBandwidth>\n      <cost>660</cost>\n    </optacloud.optacloud.Computer>\n  </computerList>\n  <processList id=\"5\">\n    <optacloud.optacloud.Process id=\"6\">\n      <id>0</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"7\">\n      <id>1</id>\n      <requiredCpuPower>3</requiredCpuPower>\n      <requiredMemory>6</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"8\">\n      <id>2</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>3</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"9\">\n      <id>3</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>2</requiredMemory>\n      <requiredNetworkBandwidth>11</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"10\">\n      <id>4</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"11\">\n      <id>5</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>5</requiredNetworkBandwidth>\n    </optacloud.optacloud.Process>\n  </processList>\n</planning-problem>\n"
+					"raw": "<planning-problem class=\"optacloud.optacloud.CloudSolution\" id=\"1\">\n  <id>0</id>\n  <computerList id=\"2\">\n    <optacloud.optacloud.Computer id=\"3\">\n      <id>0</id>\n      <cpuPower>24</cpuPower>\n      <memory>96</memory>\n      <networkBandwidth>16</networkBandwidth>\n      <gpuPower>6</gpuPower>\n      <cost>7800</cost>\n    </optacloud.optacloud.Computer>\n    <optacloud.optacloud.Computer id=\"4\">\n      <id>1</id>\n      <cpuPower>6</cpuPower>\n      <memory>4</memory>\n      <networkBandwidth>6</networkBandwidth>\n      <gpuPower>6</gpuPower>\n      <cost>3660</cost>\n    </optacloud.optacloud.Computer>\n  </computerList>\n  <processList id=\"5\">\n    <optacloud.optacloud.Process id=\"6\">\n      <id>0</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n      <requiredGpuPower>2</requiredGpuPower>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"7\">\n      <id>1</id>\n      <requiredCpuPower>3</requiredCpuPower>\n      <requiredMemory>6</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n      <requiredGpuPower>2</requiredGpuPower>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"8\">\n      <id>2</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>3</requiredNetworkBandwidth>\n      <requiredGpuPower>4</requiredGpuPower>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"9\">\n      <id>3</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>2</requiredMemory>\n      <requiredNetworkBandwidth>11</requiredNetworkBandwidth>\n      <requiredGpuPower>0</requiredGpuPower>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"10\">\n      <id>4</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>1</requiredNetworkBandwidth>\n      <requiredGpuPower>0</requiredGpuPower>\n    </optacloud.optacloud.Process>\n    <optacloud.optacloud.Process id=\"11\">\n      <id>5</id>\n      <requiredCpuPower>1</requiredCpuPower>\n      <requiredMemory>1</requiredMemory>\n      <requiredNetworkBandwidth>5</requiredNetworkBandwidth>\n      <requiredGpuPower>0</requiredGpuPower>\n    </optacloud.optacloud.Process>\n  </processList>\n</planning-problem>\n"
 				},
 				"url": {
-					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_1.0.0-SNAPSHOT/solvers/cloudBalancingSolver/state/solving",
+					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_2.0.0-SNAPSHOT/solvers/cloudBalancingSolver/state/solving",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -112,7 +112,7 @@
 						"rest",
 						"server",
 						"containers",
-						"optacloud_1.0.0-SNAPSHOT",
+						"optacloud_2.0.0-SNAPSHOT",
 						"solvers",
 						"cloudBalancingSolver",
 						"state",
@@ -148,7 +148,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_1.0.0-SNAPSHOT/solvers/cloudBalancingSolver/bestsolution",
+					"raw": "http://localhost:8080/kie-server/services/rest/server/containers/optacloud_2.0.0-SNAPSHOT/solvers/cloudBalancingSolver/bestsolution",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -160,7 +160,7 @@
 						"rest",
 						"server",
 						"containers",
-						"optacloud_1.0.0-SNAPSHOT",
+						"optacloud_2.0.0-SNAPSHOT",
 						"solvers",
 						"cloudBalancingSolver",
 						"bestsolution"
